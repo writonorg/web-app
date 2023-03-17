@@ -10,6 +10,10 @@ defineProps({
     type: String,
     default: "",
   },
+  prefix: {
+    type: String,
+    default: "",
+  },
   duration: {
     type: Number,
     default: 4000,
@@ -45,11 +49,14 @@ defineProps({
 </script>
 <template>
   <div class="text-center">
-    <h1 :class="`text-gradient text-${color ?? 'success'}`">
+    <h2 :class="`text-gradient text-${color ?? 'success'}`">
+      {{
+        prefix
+      }}
       <CountTo :start-val="0" :end-val="count" :duration="duration" />{{
         suffix
       }}
-    </h1>
+    </h2>
     <h5 class="mt-3">{{ title }}</h5>
     <p class="text-sm font-weight-normal">
       {{ description }}

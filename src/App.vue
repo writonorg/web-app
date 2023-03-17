@@ -1,13 +1,13 @@
 <script setup>
 /*
 =========================================================
-* Vue Material Kit 2 - v2.0.0
+* Writon - v1.0.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/vue-material-kit
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Website: https://writon.org
+* Copyright 2023 Writon (https://writon.org)
 
-Coded by www.creative-tim.com
+Coded by writon.org
 
  =========================================================
 

@@ -26,10 +26,11 @@ onMounted(() => {
         <DefaultNavbar
           :sticky="true"
           :action="{
-            route: 'https://www.creative-tim.com/product/vue-material-kit-pro',
-            color: 'bg-gradient-success',
-            label: 'Buy Now',
+            route: 'create',
+            color: 'bg-gradient-primary',
+            label: 'Get Started',
           }"
+
         />
       </div>
     </div>
@@ -68,50 +69,9 @@ onMounted(() => {
               <div class="card-body">
                 <p class="pb-3">
                   For further questions, including partnership opportunities,
-                  please email hello@creative-tim.com or contact using our
-                  contact form.
+                  please email hi@writon.org
                 </p>
-                <form id="contact-form" method="post" autocomplete="off">
-                  <div class="card-body p-0 my-3">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <MaterialInput
-                          class="input-group-static mb-4"
-                          type="text"
-                          label="Full Name"
-                          placeholder="Full Name"
-                        />
-                      </div>
-                      <div class="col-md-6 ps-md-2">
-                        <MaterialInput
-                          class="input-group-static mb-4"
-                          type="email"
-                          label="Email"
-                          placeholder="hello@creative-tim.com"
-                        />
-                      </div>
-                    </div>
-                    <div class="form-group mb-0 mt-md-0 mt-4">
-                      <MaterialTextArea
-                        id="message"
-                        class="input-group-static mb-4"
-                        :rows="6"
-                        placeholder="Describe your problem in at least 250 characters"
-                        >How can we help you?</MaterialTextArea
-                      >
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12 text-center">
-                        <MaterialButton
-                          variant="gradient"
-                          color="success"
-                          class="mt-3 mb-0"
-                          >Send Message</MaterialButton
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </form>
+               
               </div>
             </div>
           </div>

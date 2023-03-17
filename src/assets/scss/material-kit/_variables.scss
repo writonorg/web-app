@@ -53,9 +53,9 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$primary: #e91e63 !default;
+$primary: #1a73e8 !default;
 $secondary: #7b809a !default;
-$info: #1a73e8 !default;
+$info: #e91e63 !default;
 $success: #4caf50 !default;
 $warning: #fb8c00 !default;
 $danger: #f44335 !default;
@@ -77,14 +77,15 @@ $theme-colors: (
 // scss-docs-end theme-colors-map
 
 // Gradient colors
-$primary-gradient: #ec407a !default;
-$primary-gradient-state: #d81b60 !default;
+
+$primary-gradient: #49a3f1 !default;
+$primary-gradient-state: #1a73e8 !default;
 
 $secondary-gradient: #747b8a !default;
 $secondary-gradient-state: #495361 !default;
 
-$info-gradient: #49a3f1 !default;
-$info-gradient-state: #1a73e8 !default;
+$info-gradient: #ec407a !default;
+$info-gradient-state: #d81b60 !default;
 
 $success-gradient: #66bb6a !default;
 $success-gradient-state: #43a047 !default;

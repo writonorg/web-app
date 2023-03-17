@@ -13,7 +13,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-dark opacity-8"
-                href="https://www.creative-tim.com"
+                href="https://writon.org"
                 target="_blank"
               >
                 Home
@@ -22,7 +22,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-dark opacity-8"
-                href="https://www.creative-tim.com/presentation"
+                href="https://writon.org/about-us"
                 target="_blank"
               >
                 About
@@ -31,7 +31,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-dark opacity-8"
-                href="https://www.creative-tim.com/blog"
+                href="https://writon.org/blog"
                 target="_blank"
               >
                 Blog
@@ -40,7 +40,7 @@
             <li class="nav-item">
               <a
                 class="nav-link text-dark opacity-8"
-                href="https://www.creative-tim.com"
+                href="https://writon.org"
                 target="_blank"
               >
                 Services
@@ -48,8 +48,7 @@
             </li>
           </ul>
           <p class="text-sm text-dark opacity-8 mb-0">
-            Copyright © {{ new Date().getFullYear() }} Material Design by
-            Creative Tim.
+            Copyright © {{ new Date().getFullYear() }} Writon
           </p>
         </div>
         <div class="col-lg-6 ms-auto text-lg-end text-center">

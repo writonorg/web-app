@@ -1,5 +1,7 @@
 <script setup>
-import logoDark from "@/assets/img/logo-ct-dark.png";
+import logoDark from "@/assets/img/logo-small-128x128.png";
+
+
 defineProps({
   brand: {
     type: Object,
@@ -7,7 +9,7 @@ defineProps({
     logo: String,
     route: "",
     default: () => ({
-      name: "Material Kit 2",
+      name: "Writon",
       logo: logoDark,
       route: "/"
     })
@@ -19,23 +21,19 @@ defineProps({
     default: () => [
       {
         icon: '<i class="fab fa-facebook text-lg opacity-8"></i>',
-        link: "https://www.facebook.com/CreativeTim/"
+        link: "https://www.facebook.com/writonorg"
       },
       {
         icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
-        link: "https://twitter.com/creativetim"
-      },
-      {
-        icon: '<i class="fab fa-dribbble text-lg opacity-8"></i>',
-        link: "https://dribbble.com/creativetim"
+        link: "https://twitter.com/writonorg"
       },
       {
         icon: '<i class="fab fa-github text-lg opacity-8"></i>',
-        link: "https://github.com/creativetimofficial"
+        link: "https://github.com/writonorg"
       },
       {
-        icon: '<i class="fab fa-youtube text-lg opacity-8"></i>',
-        link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
+        icon: '<i class="fab fa-telegram text-lg opacity-8"></i>',
+        link: "https://t.me/writonorg"
       }
     ]
   },
@@ -49,72 +47,64 @@ defineProps({
     },
     default: () => [
       {
-        name: "company",
+        name: "Company",
         items: [
           {
             name: "about us",
-            href: "https://www.creative-tim.com/presentation"
+            href: "/about-us"
           },
-          {
-            name: "freebies",
-            href: "https://www.creative-tim.com/templates/free"
-          },
-          {
-            name: "premium tools",
-            href: "https://www.creative-tim.com/templates/premium"
-          },
-          { name: "blog", href: "https://www.creative-tim.com/blog" }
+          { name: "blog", href: "/blog" }
         ]
       },
       {
-        name: "resources",
+        name: "Docs",
         items: [
-          { name: "illustrations", href: "https://iradesign.io/" },
+          { name: "how it works", href: "https://writon.org" },
           {
-            name: "bits & snippets",
-            href: "https://www.creative-tim.com/bits"
+            name: "getting started",
+            href: "https://writon.org"
           },
           {
-            name: "affiliate program",
-            href: "https://www.creative-tim.com/affiliates/new"
+            name: "developer guide",
+            href: "https://writon.org"
           }
         ]
       },
       {
-        name: "help & support",
+        name: "Help & Support",
         items: [
           {
             name: "contact us",
-            href: "https://www.creative-tim.com/contact-us"
+            href: "/contact-us"
           },
           {
             name: "knowledge center",
-            href: "https://www.creative-tim.com/knowledge-center"
+            href: "https://writon.org"
           },
           {
             name: "custom development",
-            href: "https://services.creative-tim.com/"
+            href: "https://writon.org"
           },
           {
             name: "sponsorships",
-            href: "https://www.creative-tim.com/sponsorships"
+            href: "https://writon.org"
           }
         ]
       },
       {
-        name: "legal",
+        name: "Legal",
         items: [
           {
             name: "terms & conditions",
-            href: "https://www.creative-tim.com/terms"
+            href: "https://writon.org"
           },
           {
             name: "privacy policy",
-            href: "https://www.creative-tim.com/privacy"
+            href: "https://writon.org"
           },
           {
             name: "licenses (EULA)",
-            href: "https://www.creative-tim.com/license"
+            href: "https://writon.org"
           }
         ]
       }
@@ -171,9 +161,7 @@ defineProps({
             <p class="text-dark my-4 text-sm font-weight-normal">
               All rights reserved. Copyright ©
               {{ new Date().getFullYear() }}
-              Material Kit by
-              <a href="https://www.creative-tim.com" target="_blank"
-                >Creative Tim</a
+              <a href="/about-us">Writon Team</a
               >.
             </p>
           </div>
